@@ -1,5 +1,5 @@
 class ContactMailer < ActionMailer::Base
-  default to: "steve@chesnowitz.com"
+  default to: "sandyhogan2013@gmail.com"
   
   def contact_email(name, email, message)
     @name = name
@@ -7,6 +7,6 @@ class ContactMailer < ActionMailer::Base
     @message = message
 
   
-  mail(from: email, subject: "Steve's Articles Contact Form Message")
+  mail(from: email, subject: "Awesome Articles Contact Form Message")
   end
 end
