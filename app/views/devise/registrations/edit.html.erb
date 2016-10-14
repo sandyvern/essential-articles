@@ -9,7 +9,7 @@
       <%= f.input :email, required: true, autofocus: true, label: false, placeholder: "E-mail" %>
       <%= f.input :firstname, required: false, autofocus: false, label: false, placeholder: "First Name" %>
       <%= f.input :lastname, required: false, label: false, placeholder: "Last Name" %>
-
+      
     <% if devise_mapping.confirmable? && resource.pending_reconfirmation? %>
       <p>Currently waiting confirmation for: <%= resource.unconfirmed_email %></p>
     <% end %>
