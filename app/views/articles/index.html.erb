@@ -14,7 +14,8 @@
 
         <!-- Author -->
         <p>
-             Article By:<strong>  <%=  article.user.username %></strong>
+            <%= image_tag article.user.image.url(:thumb), class: "img-circle" %>
+            Article By:<strong>  <%=  article.user.username %></strong>
         </p>
 
         <hr>
