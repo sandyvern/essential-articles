@@ -20,35 +20,5 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 @import "yeti";
-
-
-body {
-  padding-bottom: 125px;
-  background-color: #e9ece5;
-}
-
-a {
-  color: #cb7575;  
-}
-
-.navbar-default a {
-    color: #e9ece5;
-}
-
-.navbar-default .navbar-brand {
-   color: #a3c9c7;
-   font-family: 'Lobster Two', cursive;
-   font-weight: bold;
-   font-size: 26px;
-}
-
-.jumbotron {
-    background-color: #a3c9c7;
-}
-
-.btn-default {
-    background-color: #ef9e9f;
-    border-color: #cb7575;
-}
-
+@import "custom";
 
