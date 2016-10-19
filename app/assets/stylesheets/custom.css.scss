@@ -3,6 +3,10 @@ body {
   background-color: #e9ece5;
 }
 
+p {
+    text-align: justify;
+}
+
 a {
   color: #cb7575;  
 }
@@ -41,6 +45,6 @@ a {
     padding : 10px;
 }
 
-h1 {
+h1, p {
  word-wrap: break-word;
 }

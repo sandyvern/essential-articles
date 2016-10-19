@@ -27,21 +27,16 @@
         
 
         <!-- Post Content -->
+        <p>
         <%= @article.body %>
-       
+       </p>
         <hr>
 
         <!-- Blog Comments -->
         <%= render @article.comments %>
         <!-- Comments Form -->
-       
-        <%= render 'comments/form' %>  
         <div class="well">
-          
-
-        <h4></h4>
-
-
+            <%= render 'comments/form' %>
         </div>
 
         <hr>
@@ -65,7 +60,7 @@
 
         <!-- Side Widget Well -->
         <div class="well">
-          <h4></h4>
+          <h4>Coming Soon</h4>
   
         </div>
 
